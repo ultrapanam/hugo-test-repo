@@ -1,0 +1,21 @@
+baseURL = "/hugo-theme-serial-programmer/"
+languageCode = "en-us"
+title = "Hugo Serial Programmer"
+rssLimit = 20
+copyright = "2022 Personal page"
+minify = false
+
+[Author]
+  name = "Nick"
+  email = "me@example.com"
+
+[permalinks]
+  posts = "/:year/:month/:day/:filename"
+  pages = "/:slug"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["html", "json", "rss"]
